@@ -8,6 +8,8 @@ public class Mapa {
     public Mapa() {
         tablero = new char[10][10];
         trampas = new ArrayList<>();
+        inicializarTablero();
+        generarTrampas(3);
     }
 
     private void inicializarTablero() {
